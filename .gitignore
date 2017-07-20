@@ -1,5 +1,7 @@
-# Compiled class file
+target/
 *.class
+mvnw
+*.cmd
 
 # Log file
 *.log
@@ -9,6 +11,13 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
+
+### STS ###
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
 
 # Package Files #
 *.jar
@@ -20,3 +29,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# IntelliJ IDEA #
+.idea
+*.iws
+*.iml
+*.ipr
